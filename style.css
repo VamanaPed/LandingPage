@@ -1,0 +1,94 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    height: 1080px;
+}
+
+body > div {
+    background-color: red;
+    flex: 1;
+    padding: 0 15%;
+}
+
+.header {
+    background-color: #1f2937;
+    display: flex;
+    flex-direction: column;
+}
+
+.header > div {
+    padding-bottom: 124px;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 950;
+    color: #F9FAF8;
+    margin-right: auto;
+}
+
+.heroMainText {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+}
+
+.top {
+    display: flex;
+    padding-top: 24px;
+    justify-content: end;
+    gap: 32px;
+}
+
+h2 {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 1000;
+}
+
+.topHalfSplit {
+    display: flex;
+    gap: 25px;
+}
+
+.splitChild {
+    width: 50%;
+    height: 220px;
+}
+
+.imagePlaceholder {
+    background-color: rgb(116, 123, 129);
+    text-align: center;
+    vertical-align: middle;
+    line-height: 220px;
+    font-weight: 700;
+    color: #E5E7EB;
+    margin: auto;
+}
+
+a, .secondaryText {
+    text-decoration: none;
+    text-emphasis-style: none;
+    color: #E5E7EB;
+    padding: 0;
+    font-size: 18px;
+}
+
+button {
+    color: #F9FAF8;
+    background-color: #3882F6;
+    padding: 8px 36px;
+    margin: 16px 0;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 8px;
+    font-weight: bold;
+    font-size: 18px;
+}
