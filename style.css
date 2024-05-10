@@ -7,7 +7,7 @@
 body {
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 1px;
     height: 1080px;
 }
 
@@ -91,4 +91,60 @@ button {
     border-radius: 8px;
     font-weight: bold;
     font-size: 18px;
+}
+
+#information {
+    background-color: #F9FAF8;
+}
+
+h3 {
+    padding: 48px 0px;
+    text-align: center;
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
+}
+
+.boxes {
+    background-color: #F9FAF8;
+    display: flex;
+    justify-content: center;
+    height: 360px;
+    gap: 64px;
+}
+
+.boxBlock {
+    width: 160px;
+}
+
+.box {
+    border: 2px solid #3882F6;
+    border-radius: 16px;
+    outline-style: Solid;
+    outline-color: #3882F6;
+    width: 160px;
+    height: 160px;
+    margin-bottom: 12px;
+}
+
+.boxBlock > p {
+    color: #494f58;
+    text-align: center;
+    font-size: 18px;
+}
+
+#quoteDiv {
+    background-color: #494f58;
+    display: flex;
+    flex: 1;
+}
+
+#quoteBox {
+    background-color: #3882F6;
+}
+
+#quote {
+    font-size: 32px;
+    font-style: italic;
+    font-weight: 100;
 }
