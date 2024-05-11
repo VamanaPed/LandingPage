@@ -81,10 +81,10 @@ a, .secondaryText {
     font-size: 18px;
 }
 
-button {
+.signupbutton {
     color: #F9FAF8;
     background-color: #3882F6;
-    padding: 8px 36px;
+    padding: 6px 32px;
     margin: 16px 0;
     border-color: #3882F6;
     border-style: solid;
@@ -94,7 +94,7 @@ button {
 }
 
 #information {
-    background-color: #F9FAF8;
+    background-color: #ffffff;
 }
 
 h3 {
@@ -106,7 +106,7 @@ h3 {
 }
 
 .boxes {
-    background-color: #F9FAF8;
+    background-color: #ffffff;
     display: flex;
     justify-content: center;
     height: 360px;
@@ -134,17 +134,65 @@ h3 {
 }
 
 #quoteDiv {
-    background-color: #494f58;
+    background-color: #E5E7EB;
     display: flex;
     flex: 1;
 }
 
 #quoteBox {
-    background-color: #3882F6;
+    display: flex;
+    flex-direction: column;
+    margin: 140px 100px 108px;
 }
 
 #quote {
-    font-size: 32px;
+    color: #1F2937;
+    font-size: 36px;
     font-style: italic;
-    font-weight: 100;
+    font-weight: lighter;
+}
+
+#quoter {
+    color: #1F2937;
+    font-size: 24px;
+    font-weight: bold;
+    margin-left: auto;
+}
+
+#signupbanner {
+    background-color: white;
+    margin: 100px 0px;
+}
+
+#signupdiv {
+    background-color: #3882F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 120px;
+    border-radius: 8px;
+}
+
+.flexColumn {
+    display: flex;
+    flex-direction: column;
+}
+
+h4 {
+    color: white;
+    font-size: 24px;
+}
+
+.whiteoutline {
+    outline: white;
+    outline-style: solid;
+    margin-left: auto;
+}
+
+#copyright {
+    background-color: #1F2937;
+    color: white;
+    font-size: 18px;
+    text-align: center;
+    padding: 40px 0px;
 }
